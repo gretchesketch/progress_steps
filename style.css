@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=muli&display=swap');
 
-
 :root {
     --line-border-fill: #3498db;
     --line-border-empty: #e0e0e0;
 }
-
 
 * {
 box-sizing:border-box;
@@ -89,5 +87,14 @@ border-color: var(--line-border-fill);
 }
 
 .btn:active {
-    
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:disabled {
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
 }
