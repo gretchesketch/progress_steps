@@ -1,1 +1,2 @@
 # progress_steps
+created a bar that would pass under a set of numbers ( 1,2, 3, 4). added functions in jav to added stops when pressing on th enext and previous buttons. learned java is basically linear alegebra. frig.
